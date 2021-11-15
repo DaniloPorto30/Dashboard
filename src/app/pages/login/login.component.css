@@ -1,0 +1,17 @@
+*{
+  text-decoration: none;
+}
+.container .card{
+  text-decoration: none;
+  margin-top: 15px;
+  border: 1px  solid blue;
+  width: 550px;
+  padding: 45px;
+  position: absolute;
+  top: 15%;
+  left: 32%;
+}
+.container .card a{
+  color: blue;
+  margin-top:10px ;
+}

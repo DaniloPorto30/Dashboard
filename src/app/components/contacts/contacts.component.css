@@ -1,0 +1,50 @@
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #eff0fa;
+}
+.navbar{
+margin-left: 298px;
+width: auto;
+height: 90px;
+}
+.navbar-nav{
+  display: flex;
+  color: gray ;
+}
+.nav-item
+{
+  margin: auto;
+  padding: 5px;
+}
+.nav-item1
+{
+  margin: auto;
+  margin-left: 875px;
+}
+#userlogo
+{
+  font-size: 38px ;
+  margin-left: -20px;
+  color: gray ;
+}
+.nav-item #username
+{
+padding-left:60px;
+}
+.navbar-brand i
+{
+font-size: 24px;
+margin-left: 30px;
+}
+#sino{
+  padding-left: 15px;
+}
+.maps{
+  background-color: gray;
+  padding: 40px 30px 20px 30px;
+  margin-left: 298px;
+}
+.container{
+padding-top: 40px;
+  }

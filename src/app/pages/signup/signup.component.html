@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Criar conta</h1><hr>
+        </div>
+        <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+         <div class="mb-3">
+           <label class="form-label">Name:</label>
+           <input formControlName="name" placeholder="Digite seu Nome" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email address:</label>
+            <input formControlName="email" placeholder="Digite seu email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           </div>
+         <div class="mb-3">
+           <label class="form-label">Password:</label>
+           <input formControlName="password" placeholder="Digite sua senha" type="password" class="form-control" id="exampleInputPassword1">
+         </div>
+         <button type="submit" class="btn btn-primary">Criar</button>
+       </form><hr>
+       <a routerLink="/login">Já possuo uma conta! Click Aqui!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
