@@ -7,11 +7,9 @@ import { OverviewComponent } from './components/overview/overview.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SettingsComponent } from './components/settings/settings.component';
-import { ButtonsairComponent } from './pages/buttonsair/buttonsair.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SidebarComponent } from './pages/sidebar/sidebar.component';
 import { SignupComponent } from './pages/signup/signup.component';
-import { HomeComponent } from './components/home/home.component';
 import { AgentsComponent } from './components/agents/agents.component';
 
 const routes: Routes = [
@@ -33,16 +31,8 @@ const routes: Routes = [
     component: SignupComponent,
   },
   {
-    path: 'buttonsair',
-    component: ButtonsairComponent,
-  },
-  {
     path: 'settings',
     component: SettingsComponent,
-  },
-  {
-    path: 'sidebar',
-    component: SidebarComponent,
   },
   {
     path: 'overview',

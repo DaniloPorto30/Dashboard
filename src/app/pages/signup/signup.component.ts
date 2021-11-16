@@ -10,6 +10,8 @@ import { Router } from '@angular/router';
 })
 export class SignupComponent implements OnInit {
 
+img1: string = "https://mls1iejiacfa.i.optimole.com/-rMZmvQ.sMX2~24f5f/w:940/h:788/q:90/https://www.bten.com.br/wp-content/uploads/2020/10/ESSA.png";
+
   signupForm!: FormGroup
   constructor(private formBuilder: FormBuilder,private _http:HttpClient,
     private router: Router ) { }
@@ -25,7 +27,7 @@ export class SignupComponent implements OnInit {
     this._http.post<any>("http://localhost:3000/registros", this.signupForm.value).subscribe(res=>{
       alert("Usuário Registrado!");
       this.signupForm.reset();
-      this.router.navigate(['sidebar'])
+      this.router.navigate(['overview'])
   }, err=>{
     alert("Erro ao cadastrar-se!")
   }

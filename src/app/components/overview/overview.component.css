@@ -5,8 +5,7 @@
 }
 .navbar{
 margin-left: 298px;
-position: fixed;
-width: 100%;
+width: auto;
 height: 90px;
 }
 .navbar-nav{
@@ -21,7 +20,7 @@ height: 90px;
 .nav-item1
 {
   margin: auto;
-  margin-left: 865px;
+  margin-left: 875px;
 }
 #userlogo
 {
@@ -40,4 +39,8 @@ margin-left: 30px;
 }
 #sino{
   padding-left: 15px;
+}
+
+.container{
+padding-top: 40px;
 }

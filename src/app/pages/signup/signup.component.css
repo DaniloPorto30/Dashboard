@@ -14,3 +14,16 @@
   color: blue;
   margin-top:10px ;
 }
+
+.card {
+  background: white;
+  padding: 15px 15px 10px;
+  margin-top: 11%;
+  width: 490px;
+  margin-left: 190px;
+}
+.photo {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}

@@ -5,8 +5,7 @@
 }
 .navbar{
 margin-left: 298px;
-position: fixed;
-width: 100%;
+width: auto;
 height: 90px;
 }
 .navbar-nav{
@@ -21,7 +20,7 @@ height: 90px;
 .nav-item1
 {
   margin: auto;
-  margin-left: 915px;
+  margin-left: 925px;
 }
 #userlogo
 {
@@ -40,4 +39,44 @@ margin-left: 30px;
 }
 #sino{
   padding-left: 15px;
+}
+
+.container-tr {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-column-gap: 70px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  padding: 0 10px;
+
+}
+#card-top{
+  margin-left: 320px;
+}
+#card-secund{
+  margin-left: 265px;
+}
+.card {
+  background: white;
+  padding: 15px 15px 10px;
+  margin-top: 20px;
+  width: 380px;
+  margin-left: 210px;
+}
+.photo {
+  width: auto;
+  height: 350px;
+  object-fit: cover;
+}
+.caption {
+  margin-top: 10px;
+  text-align: center;
+}
+.card-text{
+  color: gray;
+    font-size: 22px;
+}
+#card-link{
+  color: gray;
 }

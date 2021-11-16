@@ -41,10 +41,28 @@ margin-left: 30px;
   padding-left: 15px;
 }
 .maps{
-  background-color: gray;
-  padding: 40px 30px 20px 30px;
-  margin-left: 298px;
-}
-.container{
-padding-top: 40px;
+    background-color: gray;
+    padding: 40px 30px 20px 30px;
+    margin-left: 298px;
   }
+.card-footer {
+  height: 125px;
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+  background-color: #eff0fa;
+}
+.footer-name {
+  margin: 0 auto;
+  font-size: 20px;
+}
+.footer-name a {
+  margin: 5px;
+}
+.footer-name b {
+  color: rgba(0, 0, 255, 0.555);
+}
+#face, #link
+{
+  font-size: 28px;
+}

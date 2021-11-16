@@ -5,8 +5,7 @@
 }
 .navbar{
 margin-left: 298px;
-position: fixed;
-width: 100%;
+width: auto;
 height: 90px;
 }
 .navbar-nav{
@@ -21,7 +20,7 @@ height: 90px;
 .nav-item1
 {
   margin: auto;
-  margin-left: 895px;
+  margin-left: 905px;
 }
 #userlogo
 {
@@ -40,4 +39,35 @@ margin-left: 30px;
 }
 #sino{
   padding-left: 15px;
+}
+
+.container-tr {
+  display: grid;
+  padding: 0 10px;
+}
+#card-top{
+  margin-left: 300px;
+}
+.card {
+  background: white;
+  padding: 15px 15px 10px;
+  margin-top: 20px;
+  width: 350px;
+  margin-left: 190px;
+}
+.photo {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+.caption {
+  margin-top: 10px;
+  text-align: center;
+}
+.card-text{
+  color: gray;
+    font-size: 22px;
+}
+#card-link{
+  color: gray;
 }
